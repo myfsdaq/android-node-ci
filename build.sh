@@ -7,7 +7,7 @@ CMD=${1:-build_x86_64}
 # 12.22.12
 # 14.19.3
 # 16.15.1
-TAG=${2:-14.19.3}
+TAG=${2:-18.20.4}
 
 download_and_extract() {
   local FILENAME="v$TAG.tar.gz"
